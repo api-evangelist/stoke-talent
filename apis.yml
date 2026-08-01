@@ -1,23 +1,60 @@
 aid: stoke-talent
 name: Stoke Talent
-description: Stoke Talent is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Stoke Talent is a Freelance Management System (FMS) that lets enterprises source, onboard,
+  manage, and pay external freelancers and contractors in one place while handling worker
+  classification, contracts, tax, legal, and compliance. Founded in Israel and backed by Battery
+  Ventures, Stoke was acquired by Fiverr in November 2021 for roughly $95M and subsequently
+  rebranded as Fiverr Enterprise, now offered under the Fiverr Pro / Fiverr Enterprise product
+  line. As of this enrichment pass the company publishes no public developer API, API reference,
+  SDKs, or webhook documentation; this profile is maintained for network completeness.
 url: https://raw.githubusercontent.com/api-evangelist/stoke-talent/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company-logos/stoke-talent.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: fiverr
+x-rebranded-as: Fiverr Enterprise
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Freelance Management
+- Contingent Workforce
+- Contractor Management
+- HR Tech
+- Compliance
+- Payments
+- Fiverr Enterprise
 apis: []
+common:
+- type: Website
+  url: https://www.stoketalent.com/
+- type: DomainSecurity
+  url: security/stoke-talent-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
